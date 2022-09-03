@@ -1,0 +1,67 @@
+body{
+    background-color: #fff;
+    color: #000;
+    box-sizing: border-box;
+}
+*:focus{
+    outline:none;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 13px;
+    width: 360px;
+    height: 70vh;
+    box-shadow: 0 0 10px lightgray;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 50px;
+    overflow: hidden;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+img{
+    box-sizing: border-box;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+    object-fit: cover;
+}
+input[type="text"],
+input[type="email"]
+{
+    display: block;
+    box-sizing: border-box;
+    background: none;
+    color: #3494db;
+    margin-bottom: 30px;
+    padding: 4px 8px ;
+    width: 220px;
+    height: 32px;
+    border:none;
+    border-bottom: 1px solid #333;
+    font-family: 'roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    outline: none;
+}
+
+button{
+    border: 1px solid #333333;
+    background-color: #333;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius:5px ;
+    margin: 0px; 
+       
+}
+.boxer{
+    display: flex; 
+    column-gap: 10px;   
+    /* flex-direction: column; */
+}
